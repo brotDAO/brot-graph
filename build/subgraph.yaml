@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Brot
@@ -23,7 +23,7 @@ dataSources:
         - Unpaused
       abis:
         - name: Brot
-          file: ./abis/Brot.json
+          file: Brot/abis/Brot.json
       eventHandlers:
         - event: Approval(indexed address,indexed address,uint256)
           handler: handleApproval
@@ -41,4 +41,4 @@ dataSources:
           handler: handleTransfer
         - event: Unpaused(address)
           handler: handleUnpaused
-      file: ./src/mapping.ts
+      file: Brot/Brot.wasm
