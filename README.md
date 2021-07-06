@@ -1,4 +1,5 @@
 # brotDAO Subgraph
 
-
-An example to help you get started with The Graph. For more information see the docs on https://thegraph.com/docs/.
+- subgraph for BROT deployed on ETH Mainnet
+- hosted at <https://thegraph.com/explorer/subgraph/brotDAO/Brot> 
+- http queries: `https://api.thegraph.com/subgraphs/name/brotdao/brot`
